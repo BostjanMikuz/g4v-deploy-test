@@ -1,0 +1,7 @@
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/trailwee/g4v-deploy-output
+    - /bin/mkdir -p "$DEPLOYPATH"
+    - /bin/cp README.md "$DEPLOYPATH/README.md"
